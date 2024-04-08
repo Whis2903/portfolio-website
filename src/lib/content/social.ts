@@ -16,9 +16,5 @@ export const socialSection: SocialSectionType = {
         icon: 'lucide:linkedin',
         url: socialLinks.linkedin,
     },
-    {
-        icon: 'lucide:facebook',
-        url: socialLinks.facebook,
-    },
     ],
 };
