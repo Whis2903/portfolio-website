@@ -64,7 +64,7 @@ const FeaturedProject = ({
       >
         <div>
           <div className="font-mono hidden lg:block text-accent capitalize text-xs lg:mb-2.5">
-            featured project
+            Blog
           </div>
           <h2 className="heading-tertiary !text-white lg:!text-dark-2 !font-semibold lg:!font-normal !normal-case">
             <a
@@ -86,7 +86,7 @@ const FeaturedProject = ({
           >
             <p className="text-dark-1">{description}</p>
             <div className="text-xs hidden lg:block capitalize font-mono text-accent my-3 lg:my-2 lg:mt-3">
-              tasks / achievements
+              description
             </div>
             <div className="text-base hidden lg:block lg:text-sm">{tasks}</div>
           </div>

@@ -28,18 +28,6 @@ const About = () => {
             web developer who wants to explore every tech stack.
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at a
-            start-up -{' '}
-            <Link
-              href="https://www.pixelwand.live/"
-              target="_blank"
-              className="text-accent"
-            >
-              Pixelwand
-            </Link>
-            .
-          </p>
-          <p>
             My main focus these days is learning mobile development and finding
             a decent job.
           </p>
@@ -47,7 +35,7 @@ const About = () => {
           {list && (
             <>
               <p>{list.title}</p>
-              <ul className="grid w-2/3 grid-cols-2 gap-1 text-sm">
+              <ul className="grid w-2/3 grid-cols-2 gap-1 text-b">
                 {list.items.map((item) => (
                   <ListItem key={getId()}>{item}</ListItem>
                 ))}
