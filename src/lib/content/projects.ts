@@ -17,13 +17,13 @@ export const projectsSection: ProjectsSectionType = {
     {
         id: getId(),
         name: '',
-        url: 'https://easy-fix.vercel.app/',
-        repo: 'https://github.com/vatsalsinghkv/easy-fix',
+        url: 'https://github.com/Whis2903/Mozohack',
+        repo: 'https://github.com/Whis2903/Mozohack',
         img: 'https://user-images.githubusercontent.com/68834718/258852895-df5c6da7-a698-40fb-97c3-a5474314cb85.png',
         year: 2023,
-        tags: ['React', 'Tailwind'],
+        tags: ['React', 'Solidity', 'Polygon'],
     },
-    {
+    /*{
         id: getId(),
         name: 'image animations',
         url: 'https://image-animations.vercel.app/',
@@ -67,7 +67,7 @@ export const projectsSection: ProjectsSectionType = {
         img: 'https://user-images.githubusercontent.com/68834718/152794002-0e7bc583-084b-4c39-83bb-d82d5dd642b2.png',
         year: 2022,
         tags: ['React', 'Sass', 'JS'],
-    },
+    },**/
     {
         id: getId(),
         name: 'ClimaCast',
@@ -80,13 +80,13 @@ export const projectsSection: ProjectsSectionType = {
     {
         id: getId(),
         name: 'Official_Website',
-        url: '',
-        repo: '',
+        url: 'https://srmsigkddtesting.vercel.app/',
+        repo: 'https://github.com/Whis2903/Official_Website',
         img: 'https://user-images.githubusercontent.com/68834718/210222542-6455303d-c93e-430b-a5c8-96a431044184.png',
         year: 2021,
-        tags: ['html', 'sass', 'JS'],
+        tags: ['ReactJs'],
     },
-    {
+    /**{
         id: getId(),
         name: 'natours',
         url: 'https://natours-kv.netlify.app/',
@@ -139,6 +139,6 @@ export const projectsSection: ProjectsSectionType = {
         img: 'https://user-images.githubusercontent.com/68834718/210225545-989f79c3-cf05-4c53-b48e-b21f373b3734.png',
         year: 2021,
         tags: ['html', 'CSS', 'JS'],
-    },
+    },**/
     ],
 };
