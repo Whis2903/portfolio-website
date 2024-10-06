@@ -16,12 +16,12 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
         id: getId(),
-        name: '',
-        url: 'https://github.com/Whis2903/Mozohack',
-        repo: 'https://github.com/Whis2903/Mozohack',
+        name: 'Brain Tumor Detection',
+        url: 'https://github.com/Whis2903/Tumor-Prediction',
+        repo: 'https://github.com/Whis2903/Tumor-Prediction',
         img: 'https://user-images.githubusercontent.com/68834718/258852895-df5c6da7-a698-40fb-97c3-a5474314cb85.png',
-        year: 2023,
-        tags: ['React', 'Solidity', 'Polygon'],
+        year: 2024,
+        tags: ['CNN', 'DeepLearning'],
     },
     /*{
         id: getId(),
@@ -83,7 +83,7 @@ export const projectsSection: ProjectsSectionType = {
         url: 'https://srmsigkddtesting.vercel.app/',
         repo: 'https://github.com/Whis2903/Official_Website',
         img: 'https://user-images.githubusercontent.com/68834718/210222542-6455303d-c93e-430b-a5c8-96a431044184.png',
-        year: 2021,
+        year: 2024,
         tags: ['ReactJs'],
     },
     /**{

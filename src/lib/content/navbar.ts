@@ -11,6 +11,7 @@ export const navbarSection: NavbarSectionType = {
     ],
     cta: {
         title: 'resume',
-        url: `/${resumeFileName}`,
+        url: '/resume.pdf', // Directly reference the file in the public folder
     },
+    
 }

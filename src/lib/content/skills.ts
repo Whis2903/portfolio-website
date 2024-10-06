@@ -2,7 +2,7 @@ import { SkillsSectionType } from '@/lib/types/sections'
 import { getId } from '@/lib/utils/helper'
 
 export const skillsSection: SkillsSectionType = {
-    title: 'what i do',
+    title: 'what I do',
     skills: [
     {
         id: getId(),
@@ -27,33 +27,35 @@ export const skillsSection: SkillsSectionType = {
             name: 'typeScript',
             icon: 'vscode-icons:file-type-typescript-official',
         },
-        { name: 'python', icon: 'vscode-icons:file-type-python' },
         { name: 'nodejs', icon: 'logos:nodejs-icon' },
         { name: 'reactjs', icon: 'logos:react' },
         { name: 'nextjs', icon: 'logos:nextjs-icon' },
-          // { name: 'angularjs', icon: 'logos:angular-icon' },
+        { name: 'angularjs', icon: 'logos:angular-icon' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'redux', icon: 'logos:redux' },
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
-        { name: 'jest', icon: 'vscode-icons:file-type-jest' },
         ],
     },
     {
         id: getId(),
-        title: 'UI/UX designing',
+        title: 'Data Analyst',
         lottie: {
         light: '/lotties/designing.json',
         dark: '/lotties/designing-dark.json',
         },
         points: [
-        'Experience in designing user-friendly interfaces with figma',
-        'Experience in developing design systems and style guides',
-        'Providing user-friendly design solutions',
+        'Experience in building data-driven models to uncover insights and trends',
+        'Experience in developing machine learning pipelines and workflows',
+        'Providing data-driven solutions to improve decision-making and business outcomes',
         ],
         softwareSkills: [
-        { name: 'figma', icon: 'logos:figma' },
-        { name: 'adobe illustrator', icon: 'logos:adobe-illustrator' },
-        { name: 'adobe photoshop', icon: 'logos:adobe-photoshop' },
+        { name: 'tensorflow', icon: 'logos:tensorflow' },
+        { name: 'pytorch', icon: 'logos:pytorch' },
+        { name: 'pandas', icon: 'logos:pandas' },
+        { name: 'numpy', icon: 'logos:numpy' },
+        { name: 'matplotlib', icon: 'logos:matplotlib' },
+        { name: 'seaborn', icon: 'logos:seaborn' },
+        { name: 'openCV', icon: 'logos:opencv' },
+        { name: 'python', icon: 'vscode-icons:file-type-python' }, // Python added back to Data Analyst section
         ],
     },
     ],

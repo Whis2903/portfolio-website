@@ -24,12 +24,10 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vishal Mohan Nair, an artist as well as crazy full stack
-            web developer who wants to explore every tech stack.
+          Hi, my name is Vishal Mohan Nair, a passionate AI/ML data analyst who wants to explore every aspect of artificial intelligence and machine learning.
           </p>
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
+          My main focus these days is exploring deep learning and NLP topics.
           </p>
 
           {list && (
